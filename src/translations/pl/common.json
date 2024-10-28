@@ -131,7 +131,7 @@
   "motorControl": "Sterowanie silnikami",
   "motorControlTextLine1": "Upewnij się, że Twoje ESC są poprawnie skonfigurowane, aby odzwierciedlić stan suwaków.",
   "motorControlTextLine2": "Np.: gdy włączyłeś tryb 3D w kontrolerze lotu, upewnić się, że ESC są również tworzone dla trybu 3D, w przeciwnym razie silniki mogą być wyłączane z pełną mocą.",
-  "motorControlTextLine3": "Pamiętaj, że silniki nie będą się poruszać, jeśli na kontrolerze lotu jest włączona dwukierunkowa Dshot, ale ESC go nie obsługuje. Co może mieć miejsce podczas migania z RPM włączonego firmware do BLHeli_S.",
+  "motorControlTextLine3": "Należy również pamiętać, że jeżeli w kontrolerze lotu włączono dwukierunkowy Dshot, którego ESC nie obsługuje, to silniki nie będą się obracać. Może to mieć miejsce w przypadku, gdy firmware obsługujący RPM będzie flashowany na BLHeli_S.",
   "enableMotorControl": "Włącz sterowanie silnikami",
   "masterSpeed": "Prędkość Główna",
   "motorNr": "Silnik {{index}}",
