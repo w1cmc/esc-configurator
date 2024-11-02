@@ -1,8 +1,8 @@
 {
   "settingsHeader": "Ustawienia",
   "closeText": "Zamknij",
-  "directInput": "Wejście numeryczne",
-  "directInputHint": "Użyj danych liczbowych zamiast suwaków.",
+  "directInput": "Wpisz wartość liczbową",
+  "directInputHint": "Ręczne wpisywanie wartości liczbowych zamiast używania suwaków.",
   "printLogs": "Wygeneruj logi",
   "printLogsHint": "Będzie wypisywać zdarzenia do konsoli, jeśli włączone.",
   "extendedDebug": "Rozszerzone debugowanie",
