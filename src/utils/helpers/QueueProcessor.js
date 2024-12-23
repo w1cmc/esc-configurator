@@ -203,7 +203,7 @@ class QueueProcessor {
    * @param {number} timeout
    * @returns {Promise}
    */
-  addCommand(transmit, receive = null, timeout = 1000) {
+  addCommand(transmit, receive = null, timeout = 5000) {
     return new Promise((resolve, reject) => {
       const resolveCallback = (result) => resolve(result);
       const rejectCallback = (error) => reject(error);
