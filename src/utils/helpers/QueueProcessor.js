@@ -97,8 +97,8 @@ class QueueProcessor {
       this.currentCommand.timeoutFunct = setTimeout(() => {
         /*
          * If we are not currently processing, we can Immediately handle the
-         * timeout. Ohterwise we mark the command to be quit and it will
-         * timout after processing is done, in case not enough data was
+         * timeout. Otherwise we mark the command to be quit and it will
+         * timeout after processing is done, in case not enough data was
          * available.
          */
         if(!this.processing) {
