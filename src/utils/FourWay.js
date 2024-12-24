@@ -124,7 +124,7 @@ class FourWay {
    */
   start() {
     this.interval = setInterval(async() => {
-      if (Date.now() - this.lastCommandTimestamp > 900) {
+      if (Date.now() - this.lastCommandTimestamp > 4900) {
         try {
           await this.testAlive();
         } catch (error) {
